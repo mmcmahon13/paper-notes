@@ -30,4 +30,22 @@ Segmentation of document into
 - Bibliography
 - Annexes
 
+[todo add images]
+
+* Segmentation uses “XY-cut algorithm”
+### Header processing:
+* CRF to segment the header into title, authors, affiliations, abstract, date, keywords
+* CRF to further parse authors, affiliations, dates
+### Reference parsing:
+* Use CRF for segmentation, CRF for author sequence, dates
+* Extract author, journals, dates, volumes, issues, pages
+
+### “Cascading Model” Approach
+Pros:
+* Hierarchical structure from “flat” linear chain CRF
+* Manage fine grained structures (nested labels)
+* Model modularity (reuse date, name models)
+* Quick to train lots of models with fewer labels and features
+
+Propagation of errors
 
