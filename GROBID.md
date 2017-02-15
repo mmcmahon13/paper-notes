@@ -49,3 +49,8 @@ Pros:
 
 Propagation of errors
 
+### Applications for Digital Libraries
+* self-archiving of articles
+* the pre-processing of documents for information retrieval
+* generation of reliable OpenURL links or automatic citation suggestions.
+
