@@ -2,7 +2,7 @@
 Another attempt to organize my notes so that I can actually find and read them later...
 
 ## Metadata Extraction
-* GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications [[springer](http://link.springer.com/chapter/10.1007/978-3-642-04346-8_62)]
+* [GROBID: Combining Automatic Bibliographic Data Recognition and Term Extraction for Scholarship Publications](https://github.com/mmcmahon13/paper-notes/blob/master/GROBID.md) [[springer](http://link.springer.com/chapter/10.1007/978-3-642-04346-8_62)]
 * Logical Structure Recovery in Scholarly Articles with Rich Document Features (SectLabel) [[link](https://www.comp.nus.edu.sg/~kanmy/papers/ijdls-SectLabel.pdf)]
 * CERMINE: automatic extraction of structured metadata from scientific literature. [[springer](http://link.springer.com/article/10.1007/s10032-015-0249-8)]
 * Information extraction from research papers using conditional random fields. [[link](https://people.cs.umass.edu/~mccallum/papers/hlt2004.pdf)]
