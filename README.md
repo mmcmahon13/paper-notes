@@ -12,6 +12,7 @@ Another attempt to organize my notes so that I can actually find and read them l
 * SciPlore Xtract: Extracting Titles from Scientific PDF Documents by Analyzing Style Information (Font Size) [[springer](http://docear.org/papers/SciPlore%20Xtract%20--%20Extracting%20Titles%20from%20Scientific%20PDF%20Documents%20by%20Analyzing%20Style%20Information%20(Font%20Size)-preprint.pdf)]
 * Evaluation of Header Metadata Extraction Approaches and Tools for Scientific PDF Documents [[ACM](http://www.sciplore.org/wp-content/papercite-data/pdf/lipinski13.pdf)]
 * ParsCit: An open-source CRF reference string parsing package [[link](https://www-old.comp.nus.edu.sg/~kanmy/papers/lrec08b.pdf)]
+* Automatic Document Metadata Extraction using Support Vector Machines [[link](https://clgiles.ist.psu.edu/papers/JCDL-2003-automata-metdata.pdf)]
 
 ## NLP Deep Learning 
 * Neural Machine Translation in Linear Time [[arxiv](https://arxiv.org/pdf/1610.10099.pdf)]
