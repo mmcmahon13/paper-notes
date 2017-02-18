@@ -24,4 +24,5 @@ Another attempt to organize my notes so that I can actually find and read them l
 ## General Deep Learning
 * Multi-Scale Context Aggregation by Dilated Convolutions [[arxiv](https://arxiv.org/pdf/1511.07122.pdf)]
 
-## Misc.
+## Datasets
+* [GROTOAP](https://github.com/mmcmahon13/paper-notes/blob/master/notes/GROTOAP.md)
