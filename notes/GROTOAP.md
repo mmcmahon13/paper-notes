@@ -76,7 +76,27 @@ Open Access Subset of PubMed Central
      * title_author — zones containing both document's title and the list of authors;
      * type —the type of the document, usually mentioned on the first page near the title, such as "research paper", "case study" or * "editorial";
      * unknown — used for all the zones that do not fall in any of the above categories.
+* (paper contains graph about prevalence of labels)
+### Ground Truth File Format
+* TrueViz (XML format to store geometrical/logical structure)
 
+## Building the Dataset
+1. download PubMed PDFs, NML files
+2. Process PDFs using CERMINE tools, contruct geometric heirarchy and reading order
+3. Compare extracted text to corresponding NLM files to get most probable labels for zones
+    * use Smith-Waterman sequence alignment algorithm to measure similarity of text strings
+    * for each zone, choose strin gwith highest sim. score above a threshold
+    * (see 4.1 for more details)
+4. Filter out files where zones couldnt' be auto-labeled
+5. Inspect files (human), identify common errors, use heuristics to correct them
+6. choose final dataset randomly from corrected files
+    * made sure that the final dataset had a similar distribution of publishers to the original dataset
+(can apply this same process to other datasets)
 
+## Evaluation
+* Manual
+    * randomly sampled 50 documents, overall accuracy of annotations is 0.93 (after heuristic rules are applied)
+* Used 1000 docs to train CERMINE (for evaluation)   
+    * got F1 of 79.34%
     
 
