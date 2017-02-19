@@ -1,6 +1,6 @@
 # Convolutional Neural Networks for Sentence Classification
 
-Yoon Kim
+*Kim, Y. (2014). Convolutional Neural Networks for Sentence Classification. Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP 2014), 1746–1751*
 
 Experiments with CNNs trained on top of pre-trained word vectors.
 
