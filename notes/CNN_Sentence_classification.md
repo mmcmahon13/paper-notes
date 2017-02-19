@@ -55,3 +55,8 @@ Experiments with CNNs trained on top of pre-trained word vectors.
 * CNN-multichannel (both word2vec, apply filters to both channels, but fine-tune only one of them)
 
 ## Results
+* CNN-rand does poorly
+* word vectors (even static) do pretty well
+* non-static word vectors are competitive with/beat state-of-the-art in some cases
+* they thought the two-channel approach might prevent overfititng, but results are mixed?
+* they tried Collobert Wikipedia embeddings and found that word2vec worked better
