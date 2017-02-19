@@ -30,3 +30,7 @@ Another attempt to organize my notes so that I can actually find and read them l
 
 ## Datasets
 * [GROTOAP](https://github.com/mmcmahon13/paper-notes/blob/master/notes/GROTOAP.md)
+
+## Blog Posts
+* http://colah.github.io/posts/2014-07-NLP-RNNs-Representations/
+* Understanding LSTMs (todo add link)
