@@ -20,6 +20,7 @@ Another attempt to organize my notes so that I can actually find and read them l
 * Bidirectional LSTM-CRF Models for Sequence Tagging [[arxiv](https://arxiv.org/pdf/1508.01991.pdf)]
 * A Primer on Neural Network Models for Natural Language Processing [[link](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)]
 * Natural Language Processing (Almost) from Scratch [[link](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf)]
+
 ### CNNs
 * Convolutional Neural Networks for Sentence Classification [[link](https://arxiv.org/pdf/1408.5882.pdf)]
 
