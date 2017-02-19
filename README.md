@@ -22,7 +22,7 @@ Another attempt to organize my notes so that I can actually find and read them l
 * Natural Language Processing (Almost) from Scratch [[link](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf)]
 
 ### CNNs
-* Convolutional Neural Networks for Sentence Classification [[link](https://arxiv.org/pdf/1408.5882.pdf)]
+* [Convolutional Neural Networks for Sentence Classification](https://github.com/mmcmahon13/paper-notes/blob/master/notes/CNN_Sentence_classification.md) [[link](https://arxiv.org/pdf/1408.5882.pdf)]
 
 ## General Deep Learning
 * Multi-Scale Context Aggregation by Dilated Convolutions [[arxiv](https://arxiv.org/pdf/1511.07122.pdf)]
