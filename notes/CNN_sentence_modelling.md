@@ -153,5 +153,6 @@
 ### Visualizing Feature Detectors
 * they visualize the top five 7-grams at four feature detectors in first layer of network
 
-
+## NOTES:
+*I don't understand the Time-Delay networks at all, might have to look those up somewhere else?*
     
