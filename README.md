@@ -23,6 +23,7 @@ Another attempt to organize my notes so that I can actually find and read them l
 
 ### CNNs
 * [Convolutional Neural Networks for Sentence Classification](https://github.com/mmcmahon13/paper-notes/blob/master/notes/CNN_Sentence_classification.md) [[link](https://arxiv.org/pdf/1408.5882.pdf)]
+* A Convolutional Neural Network for Modelling Sentences [[link](https://arxiv.org/pdf/1404.2188v1.pdf)]
 
 ## General Deep Learning
 * Multi-Scale Context Aggregation by Dilated Convolutions [[arxiv](https://arxiv.org/pdf/1511.07122.pdf)]
