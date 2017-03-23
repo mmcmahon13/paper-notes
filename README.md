@@ -20,7 +20,7 @@ Another attempt to organize my notes so that I can actually find and read them l
 
 ### LSTMs
 * [Named Entity Recognition with Bidirectional LSTM-CNNs](https://github.com/mmcmahon13/paper-notes/blob/master/notes/ner-bilstm-cnns.md) [[arxiv](https://arxiv.org/pdf/1511.08308.pdf)]
-* Bidirectional LSTM-CRF Models for Sequence Tagging [[arxiv](https://arxiv.org/pdf/1508.01991.pdf)]
+* [Bidirectional LSTM-CRF Models for Sequence Tagging](https://github.com/mmcmahon13/paper-notes/blob/master/notes/bilstm-crf-sequence-tagging.md) [[arxiv](https://arxiv.org/pdf/1508.01991.pdf)]
 
 ### CNNs
 * [Convolutional Neural Networks for Sentence Classification](https://github.com/mmcmahon13/paper-notes/blob/master/notes/CNN_Sentence_classification.md) [[link](https://arxiv.org/pdf/1408.5882.pdf)]
