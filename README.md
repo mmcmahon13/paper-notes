@@ -15,16 +15,18 @@ Another attempt to organize my notes so that I can actually find and read them l
 * Automatic Document Metadata Extraction using Support Vector Machines [[link](https://clgiles.ist.psu.edu/papers/JCDL-2003-automata-metdata.pdf)]
 
 ## NLP Deep Learning 
-* Neural Machine Translation in Linear Time [[arxiv](https://arxiv.org/pdf/1610.10099.pdf)]
-* [Named Entity Recognition with Bidirectional LSTM-CNNs](https://github.com/mmcmahon13/paper-notes/blob/master/notes/ner-bilstm-cnns.md) [[arxiv](https://arxiv.org/pdf/1511.08308.pdf)]
-* Bidirectional LSTM-CRF Models for Sequence Tagging [[arxiv](https://arxiv.org/pdf/1508.01991.pdf)]
 * A Primer on Neural Network Models for Natural Language Processing [[link](http://u.cs.biu.ac.il/~yogo/nnlp.pdf)]
 * Natural Language Processing (Almost) from Scratch [[link](http://www.jmlr.org/papers/volume12/collobert11a/collobert11a.pdf)]
+
+### LSTMs
+* [Named Entity Recognition with Bidirectional LSTM-CNNs](https://github.com/mmcmahon13/paper-notes/blob/master/notes/ner-bilstm-cnns.md) [[arxiv](https://arxiv.org/pdf/1511.08308.pdf)]
+* Bidirectional LSTM-CRF Models for Sequence Tagging [[arxiv](https://arxiv.org/pdf/1508.01991.pdf)]
 
 ### CNNs
 * [Convolutional Neural Networks for Sentence Classification](https://github.com/mmcmahon13/paper-notes/blob/master/notes/CNN_Sentence_classification.md) [[link](https://arxiv.org/pdf/1408.5882.pdf)]
 * [A Convolutional Neural Network for Modelling Sentences](https://github.com/mmcmahon13/paper-notes/blob/master/notes/CNN_sentence_modelling.md) [[link](https://arxiv.org/pdf/1404.2188v1.pdf)]
 * Semi-supervised Convolutional Neural Networks for Text Categorization via Region Embedding [[link](https://arxiv.org/pdf/1504.01255.pdf)]
+* Neural Machine Translation in Linear Time [[arxiv](https://arxiv.org/pdf/1610.10099.pdf)]
 
 ## General Deep Learning
 * Multi-Scale Context Aggregation by Dilated Convolutions [[arxiv](https://arxiv.org/pdf/1511.07122.pdf)]
