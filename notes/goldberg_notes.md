@@ -28,6 +28,7 @@ todo insert pic
 
 - multilayer perceptron = "universal approximator" - can hypothetically represent anything, but may be impractical (e.g. may need giant architectures or a lot of time)
 
+- softmax + perceptron = *multinomial logistic regression classifier* (aka max-entropy classifier)
 
 ### CNN
 - "location invariant classifier" (like advanced ngram)
@@ -54,6 +55,13 @@ todo insert pic
   - tanh(x) = (e^(2x)-1)/(e^(2x)+1)
 - sigmoid
   - sigmoid(x) = 1/(1 + e^(-x))
+  
+## Output Transformations
+### Softmax
+- for x = x_1 ... x_k
+   - softmax(x_i) = sum from j = 1 to k (e^(x_i)/e^(x_j))
+- make output like a discrete probablity distribution over k outcomes
+- use in conjunction with "probabalistic training objective such as cross-entropy" (?)
 
 ## Features
 - CBOW, weighted CBOw, word embeddings, etc.
