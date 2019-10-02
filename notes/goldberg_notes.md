@@ -63,6 +63,17 @@ todo insert pic
 - make output like a discrete probablity distribution over k outcomes
 - use in conjunction with "probabalistic training objective such as cross-entropy" (?)
 
+## Loss Functions
+- L(y_real, y_predicted)
+- training objective is to minimize the loss function
+### Hinge (binary) loss
+- aka SVM
+- hinge(y_real, y_predicted) = max(0, 1-y_real * y_predicted) where y_real = {-1,+1}
+- want y_real and y_ predicted to share the same sign
+
+.. (continue this section) 
+
+
 ## Features
 - CBOW, weighted CBOw, word embeddings, etc.
 - "feature" = concrete linguistic input (word, POS tag, etc.)
@@ -85,12 +96,18 @@ features are computed independently of each other | computationally easier to de
   - sum or average the embeddings of the features (reduces to normal bag of words if the embeddings are 1hot vectors)
 (todo insert equation)
 
+#### Embedding layers
+- c(.) = function from core features to input vectors (extract embeddings from core features and concatenate them e.g.)
+- some networks treat c as part of the network as a "lookup" or "embedding" layer
+
+( todo copy remainder of notes on this, too many equations - take pic?)
+
 ## General structure for Feed-Forward NLP classification system
 1. extract set of core linguistic features f_1...f_k that are relevant to the output class
 2. for each feature f_i retrieve corresponding feature vector v(f_i)
 3. combine vectors (via concatenation, summation, etc.) into input vector x
 4. feed x into nonlinear classifier (feedforward NN)
 
-Network takes care of learning interactions between combos of features using nonlinearities
-For multiclass classification with k classes, output is k-dim vector with score for each class
+- Network takes care of learning interactions between combos of features using nonlinearities
+- For multiclass classification with k classes, output is k-dim vector with score for each class
 
