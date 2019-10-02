@@ -21,6 +21,14 @@ todo insert pic
 - linear function of inputs
 - NN_perceptron(x) = xW + b where x is an input vector of dim d_(in), W is a weight matrix of dim (d_in x d_out), and b is a bias vector of dim d_out
 
+* to go beyond linear functions, introduce a non-linearity (activation?) function g applied elementwise on output of layer *
+
+- if network's output is dimension d=1, can use for regression/scoring
+- if dimension of output is > 1, can use for classification (scoring, distribution over classes)
+
+- multilayer perceptron = "universal approximator" - can hypothetically represent anything, but may be impractical (e.g. may need giant architectures or a lot of time)
+
+
 ### CNN
 - "location invariant classifier" (like advanced ngram)
 - useful when there are "strong local clues regarding class membership, but these clues can appear in different places in the input" (eg phrase in a doc or n-grams that are predictive but we don't know where they occur)
@@ -36,9 +44,16 @@ todo insert pic
 
 ## Non-linearities
 - reLu
+   - max(0,x)
 - hard tanh
+  - approximation of tanh
+  - -1 if x < -1
+  - x if x > 1
+  - x otherwise
 - tanh
+  - tanh(x) = (e^(2x)-1)/(e^(2x)+1)
 - sigmoid
+  - sigmoid(x) = 1/(1 + e^(-x))
 
 ## Features
 - CBOW, weighted CBOw, word embeddings, etc.
