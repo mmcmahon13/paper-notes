@@ -129,3 +129,27 @@ features are computed independently of each other | computationally easier to de
 - Network takes care of learning interactions between combos of features using nonlinearities
 - For multiclass classification with k classes, output is k-dim vector with score for each class
 
+## Training
+- use gradient based method to minimize chosen loss function over training data 
+   - estimate error -> compute gradients of weights w/ respect to that error -> tweak params in direction of gradients -> repeat
+### SGD
+- stochastic gradient descent
+- uses learning rate w/ single example at a time
+- *minibatch SGD* - uses batch of examples, gets average error of batch
+   - big batch size -> better corpus-wide gradient estimates
+   - small batch size -> more updates and faster convergence
+
+- can also use variants (momentum, adagrad, adam, rmsprop, etc.), change the learning rate, etc.
+
+### Optimization issues
+- initialization of weights matters
+- vanishing or exploding gradients during backprop
+- saturated/dead neurons
+   - tanh, sigmoids can get saturated at 1 causing small gradients which prevent fast learning
+- want to *shuffle* training data
+- learning rate:
+   - too big -> no convergence
+   - too small -> slow convergence
+   - start by trying [0,1]
+   
+
