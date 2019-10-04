@@ -89,6 +89,24 @@ each feature has own dimension | each feature has dimensionality d
 dimensionality = num features | similar features means similar vectors, generalize better
 features are computed independently of each other | computationally easier to deal with, lower dimension
 
+#### Word Embeddings
+- randomly sample from normal distribution to intialize?
+- *pretraining: supervised and task-specific*
+   - train embeddings for a certain task for which we have a lot of data, then use them for desired task (can either use as-is or continue tuning the vectors
+- *unsupervised pretraining*
+   - train on large amounts of unlabeled text, want words with similar meanings/contexts to have similar vectors
+   - eg. word2vec, glove, collobert/weston, gensim
+- *context choices*
+   -  context = words within some window, same paragraph, sentence, doc, position in parse tree, etc. 
+   - *sliding window approach* 
+      - look at 2k+1 words
+      - middle word = "focus" word, other 2k words are context
+      - predict focus word given context words (all of them or 1 at a time)
+         - 2k tasks (one for each target/context pair) -> *skipgram approach* (miklov)
+   - window size governmes vector similarity (larger window is more topical, smaller window gives syntactic similarity, etc.)
+   - *positiond windows* distinguish context words by position (rather than treating them all equally)
+- can also use character embeddings
+    
 #### Variable number of features: continuous bag of words (CBOW)
 - feed forward nets expect fixed sized input, but number of features isn't always known in advance
 - need a way to represent unbounded number of features in fixed sized vector
